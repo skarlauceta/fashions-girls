@@ -127,6 +127,7 @@ p {
      font-weight: 300;
      font-size: 15px;
      line-height: 24px;
+     color: white;
 }
 
 a {
@@ -286,7 +287,7 @@ ul.costomer li a span {color: #5502bb;}
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .header_bg {
-     background: url(../images/banner.png);
+     background: url(../images/12.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      background-size: cover;
@@ -380,7 +381,13 @@ ul.costomer li a span {color: #5502bb;}
 
 .titlepage h2 {
      font-size: 50px;
-     color: #6e6d70;
+     color: white;
+     line-height: 60px;
+     padding: 0;
+}
+.titlepage {
+      font-size: 50px;
+     color: black;
      line-height: 60px;
      padding: 0;
 }
@@ -391,7 +398,7 @@ ul.costomer li a span {color: #5502bb;}
 
 /** quality section **/
 
-.quality {background: #7122e7; padding-top: 80px; padding-bottom: 350px;}
+.quality {background: pink; padding-top: 80px; padding-bottom: 350px;}
 .quality .quality_box {padding: 15px;}
 .quality .quality_box figure {margin: 0;}
 .quality .quality_box figure img {width:100%; }
@@ -401,7 +408,7 @@ content: "";
 left: 15px;
 border-top: 20px;
 height: 20px;
-background: #f67b18;
+background:purple;
 width: 77%;
 top: -5px;
 }
@@ -410,7 +417,7 @@ position: absolute;
 content: "";
 left: 10px;
 height: 80%;
-background: #f67b18;
+background: purple;
 width: 20px;
 top: -5px;
 }
@@ -459,7 +466,7 @@ color: #6e6d70;
 
 .carousel-indicators .active {background: #5502bb;}
 .carousel-indicators li {
-     background: #f67b18;
+     background: pink;
      width: 30px;
      height: 10px;
      margin-right: 0px;
@@ -496,14 +503,14 @@ color: #6e6d70;
 
 .item:hover {
 
-    background: #5502bb;
+    background: pink;
     transition: ease-in all 0.5s;
 
 }    
 
 .item {
      text-align: center;
-     background: #f67b18;
+     background: purple;
      border-radius: 20px;
      padding: 20px;
 }
@@ -512,7 +519,7 @@ color: #6e6d70;
      background: #fff;
      width: 50px;
      height: 50px;
-     color: #3fbc61;
+     color: pink;
      ff;
      display: inline-block;
      border-radius: 30px;
@@ -541,7 +548,7 @@ color: #6e6d70;
 }
 
 .owl-dot {
-     background: #f67b18 !important;
+     background: pink !important;
      width: 25px;
      height: 25px;
      border-radius: 25px;
@@ -567,7 +574,7 @@ color: #6e6d70;
      cursor: pointer;
      font-size: 30px;
      line-height: 29px;
-     color: #fa7528;
+     color: pink;
 }
 
 .asked_main .ask_box {
@@ -578,13 +585,13 @@ color: #6e6d70;
 
 .simpaly {
 padding: 10px 10px 10px 20px;
-border: #fa7528 solid 2px;
+border: pink solid 2px;
 margin-bottom: 20px;
 border-radius: 10px;
 }
 
 .slider a {
-     color: #272827;
+     color: white;
      font-size: 17px;
      line-height: 20px;
      font-weight: 500;
@@ -624,7 +631,7 @@ $grey: #999;
 /** contact section **/
 .bg_ba {
      font-family: Poppins;
-     background: url(../images/bg.jpg);
+     background: url(../images/13.jpg);
      background-repeat: no-repeat;
      background-size: cover;
 }
@@ -676,15 +683,15 @@ $grey: #999;
 .contact .main_form .send {
      font-size: 16px;
      transition: ease-in all 0.5s;
-     background-color: #000;
-     color: #fff;
+     background-color: pink;
+     color: black;
      padding: 12px 70px;
      margin: 0 auto;
      display: block;
 }
 
 .contact .main_form .send:hover {
-     background-color: #fd882f;
+     background-color:;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -701,7 +708,7 @@ $grey: #999;
 }
 
 .white {
-     color: #fe9e37;
+     color: pink;
 }
 
 .cont {
@@ -730,9 +737,9 @@ $grey: #999;
 }
 
 .cont a:hover {
-     background-color: #fd882f;
+     background-color: pink;
      transition: ease-in all 0.5s;
-     color: #fff;
+     color: black;
 }
 
 
@@ -743,18 +750,18 @@ $grey: #999;
 
 .footer {
      padding: 20px 0px;
-     background: #fa7528;
+     background: pink;
 }
 
 .footer p {
-     color: #fff;
+     color: black;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
 }
 
 .footer a {
-     color: #fff;
+     color: black;
 }
 
 .footer a:hover {
